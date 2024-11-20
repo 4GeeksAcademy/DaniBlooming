@@ -1,28 +1,51 @@
-/* Rules for Colors*/
-.Header-container {
-  background: white;
-  margin-top: 0px;
-}
-
-.post-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.Feed-Container {
-  background: ivory;
-}
-
 body {
   background: #bdbdbd;
+  margin: 0pc;
+}
+div{
+  box-sizing: border-box;
 }
 
-.picture {
+header{
+  background: white;
+  padding: 10px;
+}
+header h1{
+  margin: 0;
+}
+.post{
+  background: white;
+  margin: 10px;
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.picture{
   width: 100%;
+  height: auto;
 }
 
-.style-container {
+div.post h2, div.post p{
+  padding: 10px;
+  margin: 0;
+}
+
+div.post .post-header div:first-child{
+  display: inline-block;
+  width: 80%;
+}
+
+div.post .post-header div:last-child{
+  display: inline-block;
+  width: 19%;
+  padding-right: 10px;
+  text-align: right;
+  color: gray;
+}
+
+
+div.container{
   width: 600px;
   margin: auto;
 }

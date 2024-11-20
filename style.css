@@ -1,24 +1,28 @@
 /* Rules for Colors*/
-.Header-container{
-    background: white;
-    
+.Header-container {
+  background: white;
+  margin-top: 0px;
 }
 
-.main-title{
-    max-width: fit-content;
-    margin-left:auto;
-    margin-right: auto;
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-.Feed-Container{
-    background: ivory;
-    width: 600px; 
-    margin: auto;    
+.Feed-Container {
+  background: ivory;
 }
 
+body {
+  background: #bdbdbd;
+}
 
-body{background: #bdbdbd;}
+.picture {
+  width: 100%;
+}
 
-.picture{width: 100%;}
-
+.style-container {
+  width: 600px;
+  margin: auto;
+}

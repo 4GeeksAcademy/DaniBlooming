@@ -1,0 +1,24 @@
+/* Rules for Colors*/
+.Header-container{
+    background: white;
+    
+}
+
+.main-title{
+    max-width: fit-content;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+.Feed-Container{
+    background: ivory;
+    width: 600px; 
+    margin: auto;    
+}
+
+
+body{background: #bdbdbd;}
+
+.picture{width: 100%;}
+
